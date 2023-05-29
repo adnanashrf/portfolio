@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>		
+body {
+    background-color: #88e3c2;
+}
+.flag {
+    width: 400px;
+    height: 266px;
+    background-color: green;
+    border-left: 100px solid white;
+    /* position: absolute;
+    width: 400px;
+    height: 266.6666666667px;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -133.3333333333px;
+    background-color: #023414;
+    border-left: 100px solid #fff;
+    border: 1px solid #999; */
+}
+.flag:before {
+
+   content: "";
+    display: block;
+    width: 100px;
+    height: 100%;
+    background-color: #fff;
+}
+.flag:after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    right: 0;
+    bottom: 33.3333333333px;
+    left: 116.6666666667px;
+    margin: auto;
+    width: 133.3333333333px;
+    height: 133.3333333333px;
+    background-color: transparent;
+    box-shadow: -16.6666666667px 16.6666666667px 0 5.5555555556px #fff;
+    border-radius: 50%;
+    box-shadow: -16px 16px 0px 5px white;
+}
+.star {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 4%;
+    right: 21%;
+    border: 26.6666666667px solid rgba(0, 0, 0, 0);
+    border-bottom: 20px solid #fff;
+    border-top-width: 0;
+    margin-right: 20%;   
+}
+
+.star:before {
+    content: "";
+    position: absolute;
+    border: 6.6666666667px solid rgba(0, 0, 0, 0);
+    border-bottom: 20px solid #fff;
+    border-top-width: 0;
+    transform: rotate(-35deg) translate(0, -18px);
+    transform-origin: bottom;
+}
+
+.star:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -26.6666666667px;
+    border: 26.6666666667px solid rgba(0, 0, 0, 0);
+    border-bottom: 20px solid #fff;
+    border-top-width: 0;
+    transform: rotate(-75deg);
+} */
+	</style>
+</head>
+<body>
+    <div class="flag"></div>
+    <div class="star"></div>   
+</body>
+</html>
